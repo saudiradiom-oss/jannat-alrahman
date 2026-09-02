@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Amiri:ital,wght@0,400;0,700;1,400&family=Amiri+Quran&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  background-color: #FAF7F0;
+  color: #19302A;
+  line-height: 1.6;
+}
+
+.dark {
+  background-color: #0F1419;
+  color: #E0E0E0;
+}
+
+.quran-text {
+  font-family: 'Amiri Quran', 'Amiri', serif;
+  font-size: 1.5rem;
+  line-height: 2.2;
+  text-align: center;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+
+.btn-gold {
+  @apply bg-gradient-to-r from-gold to-yellow-400 text-white hover:shadow-lg;
+}
+
+.card {
+  @apply bg-white rounded-xl p-5 shadow-md border border-border;
+}
+
+.dark .card {
+  @apply bg-gray-900 border-gray-700;
+}
