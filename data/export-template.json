@@ -1,0 +1,64 @@
+{
+  "exportedAt": "2026-08-24T19:28:45.452Z",
+  "appVersion": "1.0.0",
+  "settings": {
+    "isDarkMode": false,
+    "enableEyeComfortMode": false,
+    "selectedReciter": "alafasy",
+    "quranFontSize": 24,
+    "enableTajweedColors": true,
+    "enableAutoScroll": true,
+    "enableAudioChimes": true,
+    "dailyMorningReminder": true,
+    "morningReminderTime": "06:30",
+    "dailyEveningReminder": true,
+    "eveningReminderTime": "17:30",
+    "workModeIntervalMinutes": 15,
+    "enableWorkModeThoughts": false
+  },
+  "bookmarks": [
+    {
+      "id": "bm-fatiha",
+      "type": "surah",
+      "title": "سورة الفاتحة",
+      "subtitle": "أم الكتاب والسبع المثاني",
+      "targetId": 1,
+      "createdAt": 1787599725452
+    },
+    {
+      "id": "bm-page-604",
+      "type": "page",
+      "title": "صفحة ٦٠٤ (المعوذات)",
+      "subtitle": "الإخلاص والفلق والناس",
+      "targetId": 604,
+      "createdAt": 1787599725452
+    }
+  ],
+  "lastReadPage": 128,
+  "todayTracker": {
+    "date": "2026-08-24",
+    "prayers": {
+      "fajr": "missed",
+      "dhuhr": "missed",
+      "asr": "missed",
+      "maghrib": "missed",
+      "isha": "missed"
+    },
+    "habits": {},
+    "quranPagesRead": 0,
+    "quranTargetPages": 4,
+    "athkarCompletedCount": 0,
+    "athkarTargetCount": 12,
+    "treeGrowthPercentage": 0
+  },
+  "sebhaCount": 0,
+  "favoriteAudioLessons": [
+    "lesson-1",
+    "lesson-3"
+  ],
+  "favoriteScholars": [
+    "الشيخ محمد بن صالح العثيمين",
+    "الشيخ عبد الرزاق البدر",
+    "الشيخ صالح المغامسي"
+  ]
+}
